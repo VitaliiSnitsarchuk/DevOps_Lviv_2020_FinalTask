@@ -9,5 +9,6 @@ sleep 7
 sudo apt install -y docker-ce
 sleep 9
 sudo usermod -aG docker $(whoami)
+exit
 
 
